@@ -1,6 +1,6 @@
 name: Run Integration Tests
 
-on: [pull_request]
+on: [pull_request, workflow_dispatch]
 
 jobs:
   run_behave_tests:
